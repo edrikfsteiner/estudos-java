@@ -1,0 +1,1 @@
+A repository to test my skills in basic Java, and to store Java functions that are somewhat useful.
