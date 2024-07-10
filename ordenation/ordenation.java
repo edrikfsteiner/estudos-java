@@ -1,7 +1,7 @@
 package javaFunctions.ordenation;
 import java.util.Arrays;
 
-public class ordenation {
+public class Ordenation {
     public double[] bubbleSort(double[] arr) {
         double n = arr.length;
 
@@ -70,7 +70,7 @@ public class ordenation {
 
     public double[] mergeSort(double[] arr) {
         if (arr.length > 1) {
-            int half = arr.length % 2;
+            int half = arr.length / 2;
             double[] left = Arrays.copyOfRange(arr, 0, half);
             double[] right = Arrays.copyOfRange(arr, half, arr.length);
 
