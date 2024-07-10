@@ -4,7 +4,7 @@ public class MainDLinkedList {
     public static void main(String[] args) {
         // Uncomment the code below to run the functions
         /*
-        doublyLinkedList list = new doublyLinkedList();
+        DoublyLinkedList list = new DoublyLinkedList();
     
         for (int i = 3; i > 0; i--) {
             list.insertStart(i);

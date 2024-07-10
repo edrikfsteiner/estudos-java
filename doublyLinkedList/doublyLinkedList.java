@@ -1,6 +1,6 @@
 package javaFunctions.doublyLinkedList;
 
-public class doublyLinkedList {
+public class DoublyLinkedList {
     private Node first;
     private Node last;
 
