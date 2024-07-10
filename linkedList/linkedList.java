@@ -1,6 +1,6 @@
 package javaFunctions.linkedList;
 
-public class linkedList {
+public class LinkedList {
     private Node first;
 
     class Node {

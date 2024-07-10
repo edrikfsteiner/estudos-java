@@ -4,7 +4,7 @@ public class MainLinkedList {
     public static void main(String[] args) {
         // Uncomment the code below to run the functions
         /*
-        linkedList list = new linkedList();
+        LinkedList list = new LinkedList();
         
         for (int i = 1; i < 6; i++) {
             list.insert(i);
