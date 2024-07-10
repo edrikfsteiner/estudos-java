@@ -5,15 +5,15 @@ public class MainRecursivity {
     public static void main(String[] args) {
         // Uncomment the code below to run the functions
         /*
-        recursivity fac = new recursivity();
+        Recursivity fac = new Recursivity();
         int res = fac.factorial(5);
         System.out.println(res);
 
-        recursivity nat = new recursivity();
+        Recursivity nat = new Recursivity();
         res = nat.nat_sum(10);
         System.out.println(res);
 
-        recursivity fib = new recursivity();
+        Recursivity fib = new Recursivity();
         List<Integer> seq = fib.fibonacci(10);
         System.out.println(seq);
         */

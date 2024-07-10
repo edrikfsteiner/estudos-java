@@ -2,7 +2,7 @@ package javaFunctions.recursivity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class recursivity {
+public class Recursivity {
     public int factorial(int value) {
         if (value <= 1) {
             return value;
