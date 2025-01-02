@@ -37,7 +37,7 @@ public class AviaoBuilder {
     public Aviao build(TipoAviao tipoAviao) {
         switch (tipoAviao) {
             case CARGA:
-                tipo(TipoAviao.CARGA);
+                tipo(tipoAviao);
                 motor(new Motor(2000, 2000));
                 asa(40);
                 armas(false);
@@ -45,7 +45,7 @@ public class AviaoBuilder {
                 return new Aviao(this);
 
             case CIVIL:
-                tipo(TipoAviao.CIVIL);
+                tipo(tipoAviao);
                 motor(new Motor(1000, 1000));
                 asa(40);
                 armas(false);
@@ -53,7 +53,7 @@ public class AviaoBuilder {
                 return new Aviao(this);
 
             case JATO:
-                tipo(TipoAviao.JATO);
+                tipo(tipoAviao);
                 motor(new Motor(3000, 3000));
                 asa(40);
                 armas(false);
