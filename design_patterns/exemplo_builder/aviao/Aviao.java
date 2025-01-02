@@ -3,18 +3,18 @@ package javaFunctions.design_patterns.exemplo_builder.aviao;
 import javaFunctions.design_patterns.exemplo_builder.components.Motor;
 
 public class Aviao {
-    private final TipoAviao tipo;
-    private final Motor motor;
-    private final double asa;
-    private final boolean armas;
-    private final int assentos;
+    private TipoAviao tipo;
+    private Motor motor;
+    private double asa;
+    private boolean armas;
+    private int assentos;
 
-    public Aviao(TipoAviao tipo, Motor motor, double asa, boolean armas, int assentos) {
-        this.tipo = tipo;
-        this.motor = motor;
-        this.asa = asa;
-        this.armas = armas;
-        this.assentos = assentos;
+    public Aviao(AviaoBuilder builder) {
+        this.tipo = builder.tipo;
+        this.motor = builder.motor;
+        this.asa = builder.asa;
+        this.armas = builder.armas;
+        this.assentos = builder.assentos;
     }
 
     public TipoAviao getTipo() {
